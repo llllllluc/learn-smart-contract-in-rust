@@ -107,3 +107,6 @@ All projects listed below are their github links (there are many projects but I 
 #### Automation
 - [warp: automating arbitrary cw/sdk msg](https://github.com/terra-money/warp-contracts)
 - [croncat: on chain cron job](https://github.com/CronCats/cw-croncat)
+
+### Best practices
+- [CW best practices from DAODAO](https://github.com/DA0-DA0/dao-contracts/wiki/CosmWasm-security-best-practices)
