@@ -46,12 +46,53 @@ If you only want to choose 1 tutorial, this is the go to tutorial I recommend, i
 Cross contract calls.
 
 ## Resources
-- [official doc](https://docs.cosmwasm.com/docs/1.0/)
+### Docs
+- [official docs](https://docs.cosmwasm.com/docs/1.0/)
 - [official book like rust book](https://book.cosmwasm.com/index.html)
 - [zero to hero](https://github.com/Callum-A/cosmwasm-zero-to-hero)
 - [terra academy](https://academy.terra.money/collections)
-- [cw template](https://github.com/CosmWasm/cw-template/tree/main/src) an example counter contract
-- [cw-plus](https://github.com/CosmWasm/cw-plus) a set of standard contract cw20, cw721 like erc20, erc721 by OpenZeppelin.
+- [cw-template](https://github.com/CosmWasm/cw-template/tree/main/src)
+- [multichain-cw-template](https://github.com/steak-enjoyers/cw-template)
+- [cw-plus](https://github.com/CosmWasm/cw-plus) a set of standard contract cw20, cw721 like erc20, erc721 by OpenZeppelin
+- [cw-plus-plus](https://github.com/steak-enjoyers/cw-plus-plus)
 - [cosmwasm on rollmint](https://docs.celestia.org/developers/cosmwasm/) cw contract on celestia rollup
 - [terra developer doc](https://docs.terra.money/develop/get-started/)
 - [osmosis developer doc](https://docs.osmosis.zone/cosmwasm/)
+- [terrain](https://github.com/terra-money/terrain) Terra one stop cw dev framework
+- [beaker](https://github.com/osmosis-labs/beaker) Osmosis one stop cw dev framework
+
+### Real world examples
+Not including forks (e.g. secretswap is a fork of terraswap), all projects listed below are built from ground up.
+#### AMM DEX
+- [astroport](https://github.com/astroport-fi/astroport-core)
+- [terraswap](https://github.com/terraswap/terraswap)
+- [junoswap](https://github.com/Wasmswap)
+- [sienna swap](https://github.com/SiennaNetwork/SiennaNetwork/tree/main/contracts/amm)
+- [shade swap](https://github.com/securesecrets/shadeswap)
+#### Lending & Borrowing
+- [anchor](https://github.com/Anchor-Protocol/money-market-contracts)
+- [sienna lend](https://github.com/SiennaNetwork/SiennaNetwork/tree/main/contracts/lend)
+#### Flashloan
+- [white whale](https://github.com/White-Whale-Defi-Platform/migaloo-core)
+#### Perpetual swap
+- [margined](https://github.com/margined-protocol/perpetuals)
+#### Synthetic assets
+- [mirror](https://github.com/Mirror-Protocol/mirror-contracts)
+#### DAO tooling
+- [DA0-DA0](https://github.com/DA0-DA0/dao-contracts)
+#### NFT
+- [stargaze marketplace](https://github.com/public-awesome/marketplace)
+- [stargaze launchpad](https://github.com/public-awesome/launchpad)
+- [badges](https://github.com/steak-enjoyers/badges)
+#### Social
+- [howl social](https://github.com/howlsocial/whoami) on chain twitter + name service
+#### Liquid staking
+- [shade](https://github.com/securesecrets/shade)
+- [steak](https://github.com/steak-enjoyers/steak)
+- [lido](https://github.com/lidofinance/lido-terra-contracts)
+- [stader](https://github.com/stader-labs/lunax)
+#### Bridge
+- [shinobi btc](https://github.com/shinobi-protocol/secret-btc)
+#### Yield optimizer
+- [nexus](https://github.com/Nexus-Protocol)
+- [nebula](https://github.com/nebula-protocol/nebula-contracts)

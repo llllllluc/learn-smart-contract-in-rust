@@ -298,14 +298,14 @@ fn handle_instantiate_reply(deps: DepsMut, msg: Reply) -> StdResult<Response> {
         .events
         .iter()
         .find(|event| event.ty == "instantiate_contract")
-        .ok_or_else(|| StdError::generic_err("cannot find `instantiate` event"))?;
+        .ok_or_else(|| StdError::generic_err("cannot find `instantiate_contract` event"))?;
 
     /* Find the _contract_address from instantiate event*/
     let contract_address = &event
         .attributes
         .iter()
         .find(|attr| attr.key == "contract_address")
-        .ok_or_else(|| StdError::generic_err("cannot find `_contract_address` attribute"))?
+        .ok_or_else(|| StdError::generic_err("cannot find `contract_address` attribute"))?
         .value;
 
     /* Update the state of the contract adding the new generated MINTED_TOKEN */
