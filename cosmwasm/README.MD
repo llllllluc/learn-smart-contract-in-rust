@@ -31,12 +31,22 @@ This is the drive of building CosmWasm. To add a VM, there are basically 2 ways 
 Fast forward to today, CosmWasm has become a very popular choice to build new tings in Cosmos, as popular as Cosmos SDK. People generally agree for things are easier to change and evolve quickly, you choose CosmWasm, for things that prioritize stability and want to have more low level control, you choose Cosmos SDK.
 
 ## Tutorials
-
 There are many great tutorials about CosmWasm. Below are ones I enjoyed a lot.
 
 ### Zero to hero
+[link](https://github.com/Callum-A/cosmwasm-zero-to-hero)
 
-Link: [cosmwasm-zero-to-hero](https://github.com/Callum-A/cosmwasm-zero-to-hero)
 This 15 lesson tutorial guides you build a polling app that users can create poll and vote. It covers the main 3 components of CosmWasm contract: instantiate, execute and query. It also teaches you how to write unite test, store state onchain, generate JSON schema.
 
 If you only want to choose 1 tutorial, this is the go to tutorial I recommend, it only takes 1 week to complete and can reflect a lot. And it's friendly to rust beginners.
+
+## Resources
+- [official doc](https://docs.cosmwasm.com/docs/1.0/)
+- [official book like rust book](https://book.cosmwasm.com/index.html)
+- [zero to hero](https://github.com/Callum-A/cosmwasm-zero-to-hero)
+- [terra academy](https://academy.terra.money/collections)
+- [cw template](https://github.com/CosmWasm/cw-template/tree/main/src) an example counter contract
+- [cw-plus](https://github.com/CosmWasm/cw-plus) a set of standard contract cw20, cw721 like erc20, erc721 by OpenZeppelin.
+- [cosmwasm on rollmint](https://docs.celestia.org/developers/cosmwasm/) cw contract on celestia rollup
+- [terra developer doc](https://docs.terra.money/develop/get-started/)
+- [osmosis developer doc](https://docs.osmosis.zone/cosmwasm/)
