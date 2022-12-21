@@ -59,7 +59,8 @@ Build 2 contracts, one is a cw20 token contract, the other is a factory contract
 - [beaker](https://github.com/osmosis-labs/beaker) Osmosis one stop cw dev framework
 
 ### Real world examples
-Not including forks (e.g. secretswap is a fork of terraswap), all projects listed below are built from ground up.
+All projects listed below are their github links (there are many projects but I only list open sourced ones below). Most of below are already running in production.
+
 #### AMM DEX
 - [astroport](https://github.com/astroport-fi/astroport-core)
 - [terraswap](https://github.com/terraswap/terraswap)
@@ -69,6 +70,7 @@ Not including forks (e.g. secretswap is a fork of terraswap), all projects liste
 #### Lending & Borrowing
 - [anchor](https://github.com/Anchor-Protocol/money-market-contracts)
 - [sienna lend](https://github.com/SiennaNetwork/SiennaNetwork/tree/main/contracts/lend)
+- [mars](https://github.com/mars-protocol/v1-core)
 #### Flashloan
 - [white whale](https://github.com/White-Whale-Defi-Platform/migaloo-core)
 #### Perpetual swap
@@ -77,12 +79,21 @@ Not including forks (e.g. secretswap is a fork of terraswap), all projects liste
 - [mirror](https://github.com/Mirror-Protocol/mirror-contracts)
 #### DAO tooling
 - [DA0-DA0](https://github.com/DA0-DA0/dao-contracts)
+- [enterprise protocol](https://github.com/terra-money/enterprise-contracts)
+- [wynddao](https://github.com/cosmorama/wynddao)
 #### NFT
 - [stargaze marketplace](https://github.com/public-awesome/marketplace)
 - [stargaze launchpad](https://github.com/public-awesome/launchpad)
 - [badges](https://github.com/steak-enjoyers/badges)
+- [fractionalize NFT into FTs](https://github.com/0xArbi/cw-fractionalize)
+- [peer to peer NFT trading](https://github.com/pegasuszone/pegasus)
 #### Social
-- [howl social](https://github.com/howlsocial/whoami) on chain twitter + name service
+- [howl social](https://github.com/howlsocial/whoami)
+- [terra messenger: onchain FB messenger](https://github.com/javiersuweijie/terra-messenger)
+#### Name service
+- [icns](https://github.com/icns-xyz/icns)
+- [stargaze names](https://github.com/public-awesome/names)
+- [dens](https://github.com/envoylabs/ibc-nameservice)
 #### Liquid staking
 - [shade](https://github.com/securesecrets/shade)
 - [steak](https://github.com/steak-enjoyers/steak)
@@ -93,3 +104,6 @@ Not including forks (e.g. secretswap is a fork of terraswap), all projects liste
 #### Yield optimizer
 - [nexus](https://github.com/Nexus-Protocol)
 - [nebula](https://github.com/nebula-protocol/nebula-contracts)
+#### Automation
+- [warp: automating arbitrary cw/sdk msg](https://github.com/terra-money/warp-contracts)
+- [croncat: on chain cron job](https://github.com/CronCats/cw-croncat)
