@@ -13,7 +13,7 @@ pub struct Config {
 pub struct Poll {
     pub creator: Addr,
     pub question: String,
-    pub options: Vec<(String, u64)>,
+    pub options: Vec<(String, u64)>, // question-voting_count pair
 }
 
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
@@ -23,6 +23,6 @@ pub struct Ballot {
 
 pub const CONFIG: Item<Config> = Item::new("config");
 // key is poll id (uuid), val is actual poll
-pub const POOLS: Map<String, Poll> = Map::new("polls");
+pub const POLLS: Map<String, Poll> = Map::new("polls");
 // key is voter-poll_id pair, val is actual ballot (voting result)
 pub const BALLOTS: Map<(Addr, String), Ballot> = Map::new("ballots");
