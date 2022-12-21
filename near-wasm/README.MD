@@ -1,12 +1,16 @@
 # Near Wasm
-
 ## Near overview
+Near is a sharded blockchain, probably the most notable difference between Near smart contract and others is every contract call is async, where in other environment (EVM, CosmWasm, Solana) contract call is synchronous. This will play a huge difference when you perform cross contract call. The reason Near designed it to be async is to adapt the sharded model, since you cannot guarantee two contracts live on the same shard, and cross shard communication is async.
 
-## Wasm in Near overview
+Async in Near reminds me of writing promise (async, await, then) in javascript.
+
+Overall Near has an amazing documentation and plenty of tutorials. It's easy to follow.
 
 ## Tutorials
+### Fungible token zero to hero
+[link](https://docs.near.org/tutorials/fts/introduction)
 
-### Zero to hero
+Implemented the basic functions of a NEP141 FT contract, supports balance, supply, metadata, transfer.
 
 ## Resources
 ### Docs
