@@ -40,6 +40,11 @@ This 15 lesson tutorial guides you build a polling app that users can create pol
 
 If you only want to choose 1 tutorial, this is the go to tutorial I recommend, it only takes 1 week to complete and can reflect a lot. And it's friendly to rust beginners.
 
+### Terra cw20 token factory
+[Link](https://docs.terra.money/develop/terrain/cw20-factory)
+
+Cross contract calls.
+
 ## Resources
 - [official doc](https://docs.cosmwasm.com/docs/1.0/)
 - [official book like rust book](https://book.cosmwasm.com/index.html)

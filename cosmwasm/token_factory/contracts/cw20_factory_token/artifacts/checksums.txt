@@ -1,0 +1,1 @@
+80e61e5dd9f4bc9fa1e07c4649b5c6171bc608b03ddbf91966de5a0ab1bf4ff7  cw20_factory_token.wasm

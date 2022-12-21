@@ -1,0 +1,1 @@
+38fccba5c6f7dfa2bbc0abbcc23912be800ea1037b16ca33fd6c6f07b1997b23  token_factory.wasm
