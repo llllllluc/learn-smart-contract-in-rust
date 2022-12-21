@@ -1,1 +1,0 @@
-c4807db951d3125469e078e78568ddecb04771c83ccee76ffea37588df1ae890  ./target/wasm32-unknown-unknown/release/token_factory.wasm

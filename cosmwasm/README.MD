@@ -33,17 +33,14 @@ Fast forward to today, CosmWasm has become a very popular choice to build new ti
 ## Tutorials
 There are many great tutorials about CosmWasm. Below are ones I enjoyed a lot.
 
-### Zero to hero
-[link](https://github.com/Callum-A/cosmwasm-zero-to-hero)
+### [Zero to hero](https://github.com/Callum-A/cosmwasm-zero-to-hero)
 
 This 15 lesson tutorial guides you build a polling app that users can create poll and vote. It covers the main 3 components of CosmWasm contract: instantiate, execute and query. It also teaches you how to write unite test, store state onchain, generate JSON schema.
 
 If you only want to choose 1 tutorial, this is the go to tutorial I recommend, it only takes 1 week to complete and can reflect a lot. And it's friendly to rust beginners.
 
-### Terra cw20 token factory
-[Link](https://docs.terra.money/develop/terrain/cw20-factory)
-
-Cross contract calls.
+### [Terra cw20 token factory](https://docs.terra.money/develop/terrain/cw20-factory)
+Build 2 contracts, one is a cw20 token contract, the other is a factory contract that mint the cw20 token.
 
 ## Resources
 ### Docs

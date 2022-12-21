@@ -4,13 +4,15 @@ Near is a sharded blockchain, probably the most notable difference between Near 
 
 Async in Near reminds me of writing promise (async, await, then) in javascript.
 
-Overall Near has an amazing documentation and plenty of tutorials. It's easy to follow.
+Overall Near has an amazing documentation and plenty of tutorials, it also has a well maintained rust sdk (dapp framework, interacting with the chain is called js-api / py-api in Near).
 
 ## Tutorials
-### Fungible token zero to hero
-[link](https://docs.near.org/tutorials/fts/introduction)
-
+### [Fungible token zero to hero](https://docs.near.org/tutorials/fts/introduction)
 Implemented the basic functions of a NEP141 FT contract, supports balance, supply, metadata, transfer.
+### [Fungible token factory](https://github.com/near-examples/token-factory)
+Implemented 2 contracts, one is the standard NEP141 fungible token contract, the other is a factory contract that mints FT token.
+
+Note: this example use near-sdk3.x, where latest version is 4.0, I have updated the code to use 4.0.
 
 ## Resources
 ### Docs

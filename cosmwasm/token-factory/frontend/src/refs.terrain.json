@@ -1,0 +1,16 @@
+{
+  "localterra": {
+    "cw20-factory-token": {
+      "codeId": "26",
+      "contractAddresses": {
+        "default": "terra1sav2gcgl7q82f8zkz2x6hllyg643klx4epmynrrczem0qeupgz2s24zqal"
+      }
+    },
+    "token-factory": {
+      "codeId": "28",
+      "contractAddresses": {
+        "default": "terra122luzshzh9kxzjanrw9kd4e8nms43c59lnpjsu7jgxaka80aq2kq235wcv"
+      }
+    }
+  }
+}
