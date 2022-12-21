@@ -3,7 +3,7 @@ use std::fs::create_dir_all;
 
 use cosmwasm_schema::{export_schema, remove_schemas, schema_for};
 
-use callum_zero_to_hero::msg::{CustomResponse, ExecuteMsg, InstantiateMsg, QueryMsg};
+use callum_zero_to_hero::msg::{ExecuteMsg, InstantiateMsg, QueryMsg};
 use callum_zero_to_hero::state::{Ballot, Config, Poll};
 
 fn main() {
@@ -18,5 +18,4 @@ fn main() {
     export_schema(&schema_for!(Config), &out_dir);
     export_schema(&schema_for!(Poll), &out_dir);
     export_schema(&schema_for!(Ballot), &out_dir);
-    export_schema(&schema_for!(CustomResponse), &out_dir);
 }
